@@ -246,3 +246,522 @@
 9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
 9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
 9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:43:10 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:43:41 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:44:24 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:44:24 PM [vite] hmr update /src/index.css, /src/App.tsx
+9:44:25 PM [vite] Pre-transform error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+9:44:25 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:45:06 PM [vite] hmr update /src/index.css, /src/App.tsx
+9:45:06 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:45:06 PM [vite] Pre-transform error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+9:49:29 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:53:02 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:53:49 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:53:50 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:53:52 PM [vite] Internal server error: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx: Unexpected token (743:1)
+
+  741 |
+  742 |   return (
+> 743 | <<<<<<< Current (Your changes)
+      |  ^
+  744 |     <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745 |       <div className="mx-auto w-full max-w-5xl space-y-16">
+  746 |         <header className="text-center">
+  Plugin: vite:react-babel
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/pages/email-signature.tsx:743:1
+  741|  
+  742|    return (
+  743|  <<<<<<< Current (Your changes)
+     |   ^
+  744|      <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(147,197,253,0.18),_transparent_60%),#f5f5f7] px-4 py-16">
+  745|        <div className="mx-auto w-full max-w-5xl space-y-16">
+      at constructor (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4598:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4605:23)
+      at TypeScriptParserMixin.jsxParseElementName (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4614:21)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4690:22)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4715:33)
+      at TypeScriptParserMixin.jsxParseElement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13218:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12874:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/tyler/Documents/Websites/Email_Signatures/node_modules/@babel/parser/lib/index.js:12174:24)
+9:59:09 PM [vite] hmr update /src/index.css, /src/App.tsx
+9:59:40 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:02:55 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:03:23 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:03:28 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:03:39 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:03:58 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:04:31 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:04:45 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:05:15 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:06:18 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:06:42 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:06:46 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:07:07 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:07:18 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:07:18 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:07:34 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:08:05 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:09:59 PM [vite] hmr update /src/index.css, /src/App.tsx
+10:10:09 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:10:28 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:11:45 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:12:04 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:12:48 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:12:49 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:13:14 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+10:13:36 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css

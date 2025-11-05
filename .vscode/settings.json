@@ -1,0 +1,10 @@
+{
+  "remote.portsAttributes": {
+    "5173": {
+      "label": "Email Signatures",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
+
+

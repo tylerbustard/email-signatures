@@ -1,0 +1,248 @@
+
+> email-signatures@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 142 ms
+
+  ➜  Local:   http://localhost:5005/
+  ➜  Network: use --host to expose
+7:51:11 PM [vite] Pre-transform error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+7:51:11 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/components/ui/button.tsx:2:21
+  16 |  }
+  17 |  import * as React from "react";
+  18 |  import { Slot } from "@radix-ui/react-slot";
+     |                        ^
+  19 |  import { cva } from "class-variance-authority";
+  20 |  import { cn } from "@/lib/utils";
+      at TransformPluginContext._formatError (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+7:51:14 PM [vite] hmr update /src/index.css, /src/pages/email-signature.tsx
+7:51:14 PM [vite] Pre-transform error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+7:51:14 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/components/ui/button.tsx:2:21
+  16 |  }
+  17 |  import * as React from "react";
+  18 |  import { Slot } from "@radix-ui/react-slot";
+     |                        ^
+  19 |  import { cva } from "class-variance-authority";
+  20 |  import { cn } from "@/lib/utils";
+      at TransformPluginContext._formatError (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+7:52:44 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/components/ui/button.tsx:2:21
+  16 |  }
+  17 |  import * as React from "react";
+  18 |  import { Slot } from "@radix-ui/react-slot";
+     |                        ^
+  19 |  import { cva } from "class-variance-authority";
+  20 |  import { cn } from "@/lib/utils";
+      at TransformPluginContext._formatError (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+7:52:44 PM [vite] Internal server error: Failed to resolve import "@radix-ui/react-slot" from "src/components/ui/button.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/tyler/Documents/Websites/Email_Signatures/src/components/ui/button.tsx:2:21
+  16 |  }
+  17 |  import * as React from "react";
+  18 |  import { Slot } from "@radix-ui/react-slot";
+     |                        ^
+  19 |  import { cva } from "class-variance-authority";
+  20 |  import { cn } from "@/lib/utils";
+      at TransformPluginContext._formatError (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///Users/tyler/Documents/Websites/Email_Signatures/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+7:53:14 PM [vite] ✨ new dependencies optimized: @radix-ui/react-slot, class-variance-authority
+7:53:14 PM [vite] ✨ optimized dependencies changed. reloading
+7:57:26 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+7:57:39 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+7:58:19 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:21:16 PM [vite] hmr update /src/index.css
+8:21:16 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:21:16 PM [vite] page reload tailwind.config.js
+8:21:16 PM [vite] vite.config.js changed, restarting server...
+8:21:16 PM [vite] page reload src/vite-env.d.ts
+8:21:16 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:21:16 PM [vite] server restarted.
+8:24:17 PM [vite] vite.config.js changed, restarting server...
+8:24:18 PM [vite] server restarted.
+8:26:11 PM [vite] vite.config.js changed, restarting server...
+8:26:11 PM [vite] server restarted.
+8:26:35 PM [vite] vite.config.js changed, restarting server...
+8:26:35 PM [vite] vite.config.js changed, restarting server...
+8:26:35 PM [vite] server restarted.
+8:26:41 PM [vite] vite.config.js changed, restarting server...
+8:26:41 PM [vite] server restarted.
+8:26:41 PM [vite] vite.config.js changed, restarting server...
+8:26:42 PM [vite] server restarted.
+8:30:29 PM [vite] page reload tailwind.config.js
+8:30:29 PM [vite] hmr update /src/index.css
+8:30:29 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:30:29 PM [vite] vite.config.js changed, restarting server...
+8:30:29 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:30:29 PM [vite] page reload src/vite-env.d.ts
+8:30:29 PM [vite] hmr update /src/index.css
+8:30:29 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:30:29 PM [vite] vite.config.js changed, restarting server...
+8:30:29 PM [vite] page reload src/vite-env.d.ts
+8:30:30 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:30:31 PM [vite] server restarted.
+8:31:44 PM [vite] page reload tailwind.config.js
+8:31:44 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:31:44 PM [vite] hmr update /src/index.css
+8:31:44 PM [vite] vite.config.js changed, restarting server...
+8:31:44 PM [vite] page reload src/vite-env.d.ts
+8:31:44 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:31:45 PM [vite] server restarted.
+8:32:56 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:32:56 PM [vite] hmr update /src/index.css
+8:32:56 PM [vite] page reload tailwind.config.js
+8:32:56 PM [vite] vite.config.js changed, restarting server...
+8:32:56 PM [vite] page reload src/vite-env.d.ts
+8:32:56 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:32:56 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:32:56 PM [vite] server restarted.
+8:33:06 PM [vite] vite.config.js changed, restarting server...
+8:33:06 PM [vite] server restarted.
+8:33:07 PM [vite] vite.config.js changed, restarting server...
+8:33:07 PM [vite] server restarted.
+8:33:50 PM [vite] vite.config.js changed, restarting server...
+8:33:50 PM [vite] server restarted.
+8:33:50 PM [vite] vite.config.js changed, restarting server...
+8:33:51 PM [vite] server restarted.
+8:36:13 PM [vite] vite.config.js changed, restarting server...
+8:36:13 PM [vite] server restarted.
+8:36:51 PM [vite] vite.config.js changed, restarting server...
+8:36:52 PM [vite] server restarted.
+8:37:31 PM [vite] vite.config.js changed, restarting server...
+8:37:31 PM [vite] vite.config.js changed, restarting server...
+8:37:31 PM [vite] server restarted.
+8:40:34 PM [vite] vite.config.js changed, restarting server...
+8:40:34 PM [vite] server restarted.
+8:45:35 PM [vite] hmr update /src/index.css
+8:45:35 PM [vite] page reload tailwind.config.js
+8:45:35 PM [vite] vite.config.js changed, restarting server...
+8:45:35 PM [vite] page reload src/vite-env.d.ts
+8:45:35 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:45:35 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:45:35 PM [vite] hmr update /src/index.css
+8:45:35 PM [vite] page reload tailwind.config.js
+8:45:35 PM [vite] vite.config.js changed, restarting server...
+8:45:35 PM [vite] page reload src/vite-env.d.ts
+8:45:35 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:45:37 PM [vite] server restarted.
+8:47:04 PM [vite] vite.config.js changed, restarting server...
+8:47:04 PM [vite] vite.config.js changed, restarting server...
+8:47:04 PM [vite] server restarted.
+8:48:22 PM [vite] page reload tailwind.config.js
+8:48:22 PM [vite] hmr update /src/index.css
+8:48:22 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:48:22 PM [vite] vite.config.js changed, restarting server...
+8:48:22 PM [vite] page reload src/vite-env.d.ts
+8:48:22 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:48:23 PM [vite] page reload tailwind.config.js
+8:48:23 PM [vite] hmr update /src/index.css
+8:48:24 PM [vite] server restarted.
+8:52:18 PM [vite] page reload tailwind.config.js
+8:52:18 PM [vite] hmr update /src/index.css
+8:52:18 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:52:18 PM [vite] vite.config.js changed, restarting server...
+8:52:18 PM [vite] page reload src/vite-env.d.ts
+8:52:18 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:52:19 PM [vite] server restarted.
+8:54:42 PM [vite] page reload tailwind.config.js
+8:54:42 PM [vite] hmr update /src/index.css
+8:54:42 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+8:54:42 PM [vite] page reload src/vite-env.d.ts
+8:54:42 PM [vite] vite.config.js changed, restarting server...
+8:54:42 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+8:54:42 PM [vite] page reload src/vite-env.d.ts
+8:54:42 PM [vite] vite.config.js changed, restarting server...
+8:54:43 PM [vite] server restarted.
+8:55:18 PM [vite] vite.config.js changed, restarting server...
+8:55:18 PM [vite] server restarted.
+8:56:56 PM [vite] vite.config.js changed, restarting server...
+8:56:57 PM [vite] server restarted.
+8:59:56 PM [vite] vite.config.js changed, restarting server...
+8:59:56 PM [vite] vite.config.js changed, restarting server...
+8:59:57 PM [vite] server restarted.
+9:03:14 PM [vite] vite.config.js changed, restarting server...
+9:03:14 PM [vite] server restarted.
+9:06:17 PM [vite] page reload tailwind.config.js
+9:06:17 PM [vite] hmr update /src/index.css
+9:06:17 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+9:06:17 PM [vite] vite.config.js changed, restarting server...
+9:06:18 PM [vite] page reload src/vite-env.d.ts
+9:06:18 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:06:18 PM [vite] page reload tailwind.config.js
+9:06:18 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+9:06:18 PM [vite] hmr update /src/index.css
+9:06:18 PM [vite] vite.config.js changed, restarting server...
+9:06:19 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:06:21 PM [vite] server restarted.
+9:07:37 PM [vite] page reload tailwind.config.js
+9:07:37 PM [vite] hmr update /src/index.css
+9:07:37 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+9:07:37 PM [vite] vite.config.js changed, restarting server...
+9:07:37 PM [vite] page reload src/vite-env.d.ts
+9:07:37 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:07:38 PM [vite] server restarted.
+9:12:26 PM [vite] page reload tailwind.config.js
+9:12:26 PM [vite] hmr update /src/index.css
+9:12:26 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+9:12:26 PM [vite] vite.config.js changed, restarting server...
+9:12:26 PM [vite] page reload src/vite-env.d.ts
+9:12:26 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:12:26 PM [vite] page reload tailwind.config.js
+9:12:26 PM [vite] hmr update /src/index.css
+9:12:26 PM [vite] hmr update /src/components/ui/button.tsx, /src/index.css
+9:12:26 PM [vite] vite.config.js changed, restarting server...
+9:12:26 PM [vite] page reload src/vite-env.d.ts
+9:12:27 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:12:29 PM [vite] server restarted.
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css
+9:29:50 PM [vite] hmr update /src/pages/email-signature.tsx, /src/index.css

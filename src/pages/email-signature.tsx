@@ -4,12 +4,11 @@ import irvingLogo from "@assets/Irving_Oil.svg_1755913265895.png";
 import rbcLogo from "@assets/RBC-Logo_1755913716813.png";
 import tdLogo from "@assets/Toronto-Dominion_Bank_logo.svg_1755913265896.png";
 import bmoLogo from "@assets/BMO_Logo.svg_1755913265896.png";
-import fiscalLogo from "@assets/fiscal_ai_logo_new.png";
+import roiLogo from "@assets/roi_logo_icon.png";
 import profileImage from "@assets/Untitled design (1)_1755896187722.png";
 import stringsLogo from "@assets/73-strings-logo.webp";
 import mcgillLogo from "@assets/mcgill_1755923720192.png";
 import queensLogo from "@assets/queens_university_logo.png";
-import rotmanLogo from "@assets/rotman.png";
 import { ReactNode, useRef, useState } from "react";
 import { toPng } from "html-to-image";
 import JSZip from "jszip";
@@ -88,7 +87,7 @@ export default function EmailSignature() {
         ...['tyler@tylerbustard.ca', 'tyler.bustard@gmail.com', 'tbustard@icloud.com'].map(
           email => ({ id: `73strings-personal-${email}`, name: `73Strings-${email.replace('@', '_at_').replace('.', '_')}.png` })
         ),
-        { id: '73strings-professional-tyler.bustard@73strings.com', name: '73Strings-tyler_bustard_at_73strings_com.png' },
+        { id: '73strings-reference-tyler-at-tylerbustard-com', name: '73Strings-reference-tyler_at_tylerbustard_com.png' },
       ];
       
       for (const sig of signatures) {
@@ -146,42 +145,42 @@ export default function EmailSignature() {
       {/* Content */}
       <div className="flex-1">
         <div className="p-0">
-          <p className="text-[16px] font-bold text-gray-900 mb-2">Sincerely,</p>
+          <p className="text-[13px] font-medium text-slate-700 mb-2">Best regards,</p>
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex items-center gap-3">
-              <img src={profileImage} alt="Tyler Bustard" className="w-14 h-14 rounded-xl object-cover border border-gray-200" />
+              <img src={profileImage} alt="Tyler Bustard" className="w-[54px] h-[54px] rounded-full object-cover border border-gray-200" />
               <div>
-                <h1 className="text-xl font-extrabold text-gray-900 leading-tight tracking-tight">Tyler Bustard</h1>
-                <p className="text-[13px] text-blue-700 font-semibold leading-snug">{role}</p>
+                <h1 className="text-[28px] font-semibold text-gray-900 leading-none tracking-normal">Tyler Bustard</h1>
+                <p className="text-[14px] text-slate-700 font-semibold leading-snug mt-1">{role}</p>
                 {org ? (
-                  <p className="text-[13px] text-gray-700 leading-snug">{org}</p>
+                  <p className="text-[13px] text-slate-500 leading-snug">{org}</p>
                 ) : null}
               </div>
             </div>
           </div>
 
           {/* Contact */}
-          <ul className="mt-3 flex flex-wrap items-center gap-x-6 gap-y-1.5 text-[13px]">
+          <ul className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[13px]">
             <li className="shrink-0">
               <a href={`tel:${phone.replace(/[\s()]/g, '')}`} className="group inline-flex items-center gap-2 text-gray-800 hover:text-blue-700 whitespace-nowrap align-middle">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-100 shrink-0">
-                  <Phone size={12} />
+                <span className="inline-flex items-center justify-center w-4 h-4 text-slate-500 shrink-0">
+                  <Phone size={13} />
                 </span>
                 <span className="leading-5">{phone}</span>
               </a>
             </li>
             <li className="shrink-0">
               <a href={`mailto:${email}`} className="group inline-flex items-center gap-2 text-gray-800 hover:text-blue-700 whitespace-nowrap align-middle">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-100 shrink-0">
-                  <Mail size={12} />
+                <span className="inline-flex items-center justify-center w-4 h-4 text-slate-500 shrink-0">
+                  <Mail size={13} />
                 </span>
                 <span className="leading-5">{email}</span>
               </a>
             </li>
             <li className="shrink-0">
               <a href={`https://${website}`} target="_blank" rel="noreferrer" className="group inline-flex items-center gap-2 text-gray-800 hover:text-blue-700 whitespace-nowrap align-middle">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-50 text-blue-700 border border-blue-100 group-hover:bg-blue-100 shrink-0">
-                  <Globe size={12} />
+                <span className="inline-flex items-center justify-center w-4 h-4 text-slate-500 shrink-0">
+                  <Globe size={13} />
                 </span>
                 <span className="leading-5">{website}</span>
               </a>
@@ -189,8 +188,8 @@ export default function EmailSignature() {
             {location && (
               <li className="shrink-0">
                 <span className="inline-flex items-center gap-2 text-gray-800 whitespace-nowrap align-middle">
-                  <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-50 text-blue-700 border border-blue-100 shrink-0">
-                    <MapPin size={12} />
+                  <span className="inline-flex items-center justify-center w-4 h-4 text-slate-500 shrink-0">
+                    <MapPin size={13} />
                   </span>
                   <span className="leading-5">{location}</span>
                 </span>
@@ -199,14 +198,14 @@ export default function EmailSignature() {
           </ul>
 
           {/* Divider */}
-          <div className="mt-4 h-px bg-gray-200 w-3/4 md:w-2/3" />
+          <div className="mt-3 h-px bg-gray-200 w-3/4 md:w-2/3" />
 
           {/* Logos */}
-          <div className="mt-3 flex flex-wrap items-center gap-4 sm:gap-5">
+          <div className="mt-2.5 flex flex-wrap items-center gap-3 sm:gap-4">
             {logos.map((src, i) => {
               const isQueens = src === queensLogo;
               const is73Strings = isStrings && src === stringsLogo;
-              const sizeClass = isQueens ? 'h-12 sm:h-14' : is73Strings ? 'h-10 sm:h-12' : 'h-7 sm:h-8';
+              const sizeClass = isQueens ? 'h-7 sm:h-8' : is73Strings ? 'h-6 sm:h-7' : 'h-4 sm:h-5';
               return <img key={i} src={src} alt="logo" className={`${sizeClass} w-auto align-middle`} />;
             })}
           </div>
@@ -248,7 +247,7 @@ export default function EmailSignature() {
         
         {emails.map((email, idx) => (
           <SignatureCard key={email} id={`unb-personal-${email}`} className={idx === 0 ? undefined : 'mt-8'}>
-            <SignatureBlock email={email} website={'tylerbustard.ca'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, fiscalLogo, stringsLogo]} role={'Senior Associate, Portfolio Monitoring'} org={'73 Strings'} />
+            <SignatureBlock email={email} website={'tylerbustard.ca'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, roiLogo, stringsLogo]} role={'Finance & Technology Professional'} org={'TylerBustard.com'} />
           </SignatureCard>
         ))}
         
@@ -258,7 +257,7 @@ export default function EmailSignature() {
         </div>
         
         <SignatureCard id={'unb-professional-tyler@tylerbustard.ca'}>
-          <SignatureBlock email={'tyler@tylerbustard.ca'} website={'tylerbustard.ca'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, fiscalLogo, stringsLogo]} role={'Senior Associate, Portfolio Monitoring'} org={'73 Strings'} />
+          <SignatureBlock email={'tyler@tylerbustard.ca'} website={'tylerbustard.ca'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, roiLogo, stringsLogo]} role={'Finance & Technology Professional'} org={'TylerBustard.com'} />
         </SignatureCard>
 
         {/* McGill Section */}
@@ -290,7 +289,7 @@ export default function EmailSignature() {
         </div>
         
         <SignatureCard id={'mcgill-professional-tyler@tylerbustard.com'}>
-          <SignatureBlock email={'tyler@tylerbustard.com'} website={'tylerbustard.com'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, fiscalLogo, stringsLogo, mcgillLogo]} role={'Senior Associate, Portfolio Monitoring'} org={'73 Strings'} />
+          <SignatureBlock email={'tyler@tylerbustard.com'} website={'tylerbustard.com'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, roiLogo, stringsLogo, mcgillLogo]} role={'Finance & Technology Professional'} org={'TylerBustard.com'} />
         </SignatureCard>
 
         {/* University of Toronto Section */}
@@ -314,7 +313,7 @@ export default function EmailSignature() {
           'tylerwaynebustard@icloud.com',
         ].map((email, idx) => (
           <SignatureCard key={`uoft-${email}`} id={`uoft-personal-${email}`} className={idx === 0 ? undefined : 'mt-8'}>
-            <SignatureBlock email={email} website={'tylerbustard.info'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, stringsLogo, rotmanLogo]} />
+            <SignatureBlock email={email} website={'tylerbustard.info'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, stringsLogo, queensLogo]} />
           </SignatureCard>
         ))}
         
@@ -324,7 +323,7 @@ export default function EmailSignature() {
         </div>
         
         <SignatureCard id={'uoft-professional-tyler@tylerbustard.info'}>
-          <SignatureBlock email={'tyler@tylerbustard.info'} website={'tylerbustard.info'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, fiscalLogo, stringsLogo, rotmanLogo]} role={'Senior Associate, Portfolio Monitoring'} org={'73 Strings'} />
+          <SignatureBlock email={'tyler@tylerbustard.info'} website={'tylerbustard.info'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, roiLogo, stringsLogo, queensLogo]} role={'Finance & Technology Professional'} org={'TylerBustard.com'} />
         </SignatureCard>
 
         {/* Queens Section */}
@@ -356,12 +355,12 @@ export default function EmailSignature() {
         </div>
         
         <SignatureCard id={'queens-professional-tyler@tylerbustard.net'}>
-          <SignatureBlock email={'tyler@tylerbustard.net'} website={'tylerbustard.net'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, fiscalLogo, stringsLogo, queensLogo]} role={'Senior Associate, Portfolio Monitoring'} org={'73 Strings'} />
+          <SignatureBlock email={'tyler@tylerbustard.net'} website={'tylerbustard.net'} logos={[unbLogo, irvingLogo, rbcLogo, tdLogo, bmoLogo, roiLogo, stringsLogo, queensLogo]} role={'Finance & Technology Professional'} org={'TylerBustard.com'} />
         </SignatureCard>
 
         {/* 73 Strings Section */}
         <div className="text-center mt-14 mb-8">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900">73 Strings - Professional Email Signature</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900">73 Strings Reference Signature</h2>
         </div>
 
         {/* Personal Emails */}
@@ -388,7 +387,7 @@ export default function EmailSignature() {
                       <img src={profileImage} alt="Tyler Bustard" className="w-12 h-12 rounded-lg object-cover border border-gray-200" />
                       <div>
                         <h1 className="text-[16px] font-bold text-gray-900 leading-tight">Tyler Bustard</h1>
-                        <p className="text-[13px] text-gray-600">Senior Associate, Portfolio Monitoring</p>
+                        <p className="text-[13px] text-gray-600">Former Senior Associate, Portfolio Monitoring</p>
                         
                         {/* Personal Contact */}
                         <div className="mt-1.5 flex flex-col gap-0.5">
@@ -421,9 +420,9 @@ export default function EmailSignature() {
                           <Phone size={11} className="text-gray-400" />
                           <span>+1 (416) 728-2030</span>
                         </div>
-                        <a href="https://www.73strings.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
+                        <a href="https://tylerbustard.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
                           <Globe size={11} className="text-gray-400" />
-                          <span>www.73strings.com</span>
+                          <span>tylerbustard.com</span>
                         </a>
                         <div className="flex items-center gap-2 text-[12px] text-gray-600">
                           <MapPin size={11} className="text-gray-400" />
@@ -443,8 +442,8 @@ export default function EmailSignature() {
           <h3 className="text-lg font-semibold text-gray-700">Professional Email</h3>
         </div>
 
-        <SignatureCard id={'73strings-professional-tyler.bustard@73strings.com'}>
-          {/* Clean Professional Layout for tyler.bustard@73strings.com */}
+        <SignatureCard id={'73strings-reference-tyler-at-tylerbustard-com'}>
+          {/* 73 Strings reference layout for tyler@tylerbustard.com */}
           <div className="flex">
             <div className="flex-1">
               <div className="p-0">
@@ -457,13 +456,13 @@ export default function EmailSignature() {
                     <img src={profileImage} alt="Tyler Bustard" className="w-12 h-12 rounded-lg object-cover border border-gray-200" />
                     <div>
                       <h1 className="text-[16px] font-bold text-gray-900 leading-tight">Tyler Bustard</h1>
-                      <p className="text-[13px] text-gray-600">Senior Associate, Portfolio Monitoring</p>
+                      <p className="text-[13px] text-gray-600">Former Senior Associate, Portfolio Monitoring</p>
                       
                       {/* Personal Contact */}
                       <div className="mt-1.5 flex flex-col gap-0.5">
-                        <a href="mailto:tyler.bustard@73strings.com" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
+                        <a href="mailto:tyler@tylerbustard.com" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
                           <Mail size={11} className="text-gray-400" />
-                          <span>tyler.bustard@73strings.com</span>
+                          <span>tyler@tylerbustard.com</span>
                         </a>
                         <a href="tel:+16139851223" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
                           <Phone size={11} className="text-gray-400" />
@@ -490,9 +489,9 @@ export default function EmailSignature() {
                         <Phone size={11} className="text-gray-400" />
                         <span>+1 (416) 728-2030</span>
                       </div>
-                      <a href="https://www.73strings.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
+                      <a href="https://tylerbustard.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-[12px] text-gray-600 hover:text-blue-600">
                         <Globe size={11} className="text-gray-400" />
-                        <span>www.73strings.com</span>
+                        <span>tylerbustard.com</span>
                       </a>
                       <div className="flex items-center gap-2 text-[12px] text-gray-600">
                         <MapPin size={11} className="text-gray-400" />
@@ -510,4 +509,3 @@ export default function EmailSignature() {
     </div>
   );
 }
-

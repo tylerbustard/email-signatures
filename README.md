@@ -28,7 +28,7 @@ All assets are in the `assets/` directory:
 - RBC-Logo_1755913716813.png
 - Toronto-Dominion_Bank_logo.svg_1755913265896.png
 - BMO_Logo.svg_1755913265896.png
-- fiscal_ai_logo_new.png
+- roi_logo_icon.png
 - Untitled design (1)_1755896187722.png (profile image)
 - 73-strings-logo.webp
 - mcgill_1755923720192.png

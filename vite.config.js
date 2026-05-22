@@ -16,5 +16,9 @@ export default defineConfig({
   },
   server: {
     port: parseInt(process.env.PORT || '5004'),
+    strictPort: true,
+    // Allow accessing the dev server via custom local hostnames like
+    // http://email-signatures.localhost:5004 without Vite blocking the Host header.
+    allowedHosts: true,
   },
 })
